@@ -1,12 +1,12 @@
 from fastapi import APIRouter, HTTPException
-from backend.app.schemas import (
+from app.schemas import (
     PlacementRequest,
     PlacementResponse,
     RoadmapItem,
     DailyPlanItem,
     MockQuestion,
 )
-from backend.app.agents.placement_agent import placement_agent
+from app.agents.placement_agent import placement_agent
 import json
 
 router = APIRouter()

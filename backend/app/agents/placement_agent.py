@@ -1,4 +1,4 @@
-import backend.app.core.config  # ensures .env is loaded
+import app.core.config  # ensures .env is loaded
 
 from pydantic import BaseModel
 from pydantic_ai import Agent
